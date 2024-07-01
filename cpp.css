@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("daa.jpg");
+	background-position:center ;
+	background-size: cover;
+	position: relative;
+
+
+}
+nav{
+	display: flex;
+	padding: 0.3% 3%;
+	justify-content:space-between ;
+	align-items: center;
+
+}
+nav img{
+	width: 80px;
+
+}
+.nav-links{
+	flex: 1;
+	text-align: center;
+
+}.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: forestgreen;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #fff;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+	
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	max-width: 50%;
+	max-height:50%;
+	margin: auto;
+	color: darkgreen;
+}
+.wrapper > p,
+.wrapper > h1 {
+	margin: 1.5Rem 0;
+	text-align: center;
+
+}
+.wrapper > h1 {
+	letter-spacing: 2px;
+
+}
+.accordion{
+	background-color: #f0fff0 ;
+	color: darkgreen;
+	cursor: pointer;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 0rem 0.5rem;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+
+}
+.accordion i {
+	font-size: 1.6rem;
+}
+.active,
+.accordion:hover{
+	background-color: #e9ffdb;
+
+}
+.pannel{
+	padding: 0 2rem 2.5rem 2rem;
+	background-color: #f5fffa;
+	overflow: hidden;
+	background-color: #f1f7f5;
+	display:none ;
+
+}
+.pannel p{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+.faq{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 10px 0;
+}
+.faq.active{
+	border: none;
+}

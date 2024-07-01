@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Обновливи извори на енергија</title>
+	<link rel="stylesheet" href="cpp.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<section class=header>
+		<nav>
+			<a href="index.html"><img src="lo.png"></a>
+			<div class="nav-links">
+				
+				<ul>
+					<li><a href="index.html"> Почетна</a></li>
+					
+					
+					<li><a href="cpp.html">ЧПП</a></li>
+
+				</ul>
+			</div>
+			
+		</nav>
+		<div class="wrapper">
+		<h1>Често поставувани прашања</h1>
+		<div class="faq">
+		<button class="accordion">
+			Кои се обновливи извори на енергија?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Обновливи извори на енергија се: сонцето, водата, ветерот, морската вода, земјата, биомаса.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Што е разликата помеѓу обновливи и необновливи извори?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Обновливите извори на енергија се воспроизводливи и неограничени, како што се сончевата, ветерната и водната енергија. Необновливите извори, како што се нафтата и јаглен, се искористуваат и се исцрпуваат, и можат да предизвикаат еколошки проблеми.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Какви се предности и недостатоци на соларните панели?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Предности: Обновлив извор на енергија, ниски оперативни трошоци, нема емисии на јаглерод, независност од мрежата. Недостатоци: Варијабилно производство (зависи од временските услови), високи почетни трошоци за инсталација, зафатени простор за инсталација, нефлексибилни при недостаток на сончева светлина.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Што е приливна и бранова енергија?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Приливната и брановата енергија се форми на обновлива енергија кои се добиваат од движењето на вода во океаните и морињата.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Што е хидроцентрала?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		
+Хидроцентрала е постројка за производство електрична енергија користејќи снага на водата. Оваа технологија работи со искористување на потенцијалната енергија на вода што тековита од висока до ниска теретска висина, претворајќи ја во механичка енергија со помош на турбина. Турбината потоа генерира електрична енергија со помош на генератор.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Колку хидроцентрали има во Македонија?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Република Македонија постојат повеќе од 20 хидроцентрали. Овие хидроцентрали се лоцирани на различни реки и водени тела во земјата. Некои од најзначајните вклучуваат хидроцентралите на реките Вардар, Требишница, Црна и Бистрица.
+	</p>
+	</div>
+</div>
+<div class="faq active">
+		<button class="accordion">
+			Што има повеќе хидроцентрали или ветерници во Мк?
+			<i class="fa-solid fa-chevron-down"></i>
+</button>
+<div class="pannel">
+	<p>
+		Во Македонија има повеќе хидроцентрали во споредба со ветерниците.
+	</p>
+	</div>
+</div>
+</div>
+<script>
+	var acc = document.getElementsByClassName
+	("accordion");
+	var i;
+	for(i=0; i<acc.length;i++){
+		acc[i].addEventListener("click", function(){
+			this.classList.toggle("active");
+			this.parentElement.classList.toggle("active");
+			var pannel = this.nextElementSibling;
+			if(pannel.style.display === "block"){pannel.style.display="none";} else{pannel.style.display="block";}
+		})
+	}
+
+</script>
+</section>
+</body>
+</html>
+		
+			
+	
